@@ -39,7 +39,7 @@ app.use((error, req, res, next) => {
 //    res.send({page: "Login", message: "Please submit your credentials!!"});
 //  });
 
-mongoose.connect('ender your mongodb link ', {
+mongoose.connect('enter your mongodb link ', {
     useUnifiedTopology: true,
     useNewUrlParser: true
 }).then(() => {
