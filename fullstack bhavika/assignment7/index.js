@@ -39,7 +39,7 @@ app.use((error, req, res, next) => {
 //    res.send({page: "Login", message: "Please submit your credentials!!"});
 //  });
 
-mongoose.connect('mongodb+srv://bhavikamamnani:9982251920@cluster0.0dfsk.mongodb.net/myAssignment?retryWrites=true&w=majority', {
+mongoose.connect('ender your mongodb link ', {
     useUnifiedTopology: true,
     useNewUrlParser: true
 }).then(() => {
